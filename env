@@ -1,0 +1,5 @@
+# Ses dosyalarınızın bulunduğu ana klasörün tam yolu
+ROOT_FOLDER="C:\Users\user\Desktop\SesArsivim"
+
+# Çıktıların kaydedileceği klasörün adı (bu klasör betik yanında oluşturulur)
+OUTPUT_FOLDER="Desifre_Metinleri"
