@@ -3,3 +3,9 @@ ROOT_FOLDER="C:\Users\user\Desktop\SesArsivim"
 
 # Çıktıların kaydedileceği klasörün adı (bu klasör betik yanında oluşturulur)
 OUTPUT_FOLDER="Desifre_Metinleri"
+
+# --- WHISPER MODELİ AYARI ---
+# Kullanılacak Whisper modelini seçin. Seçenekler: "tiny", "base", "small", "medium", "large"
+# Öneri: İyi bir başlangıç için "base" veya "small" modellerini kullanabilirsiniz.
+# Daha doğru sonuçlar için "medium" veya "large" kullanabilirsiniz ancak daha yavaş çalışır.
+WHISPER_MODEL = "medium"
