@@ -9,3 +9,7 @@ OUTPUT_FOLDER="Desifre_Metinleri"
 # Öneri: İyi bir başlangıç için "base" veya "small" modellerini kullanabilirsiniz.
 # Daha doğru sonuçlar için "medium" veya "large" kullanabilirsiniz ancak daha yavaş çalışır.
 WHISPER_MODEL = "medium"
+
+# Whisper'a doğru kelimeleri seçmesi için yardım edecek anahtar kelimeler.
+# Bu listeyi kendi ihtiyaçlarınıza göre zenginleştirebilirsiniz.
+VOCAB_PROMPT=""
