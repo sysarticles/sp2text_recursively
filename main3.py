@@ -132,7 +132,7 @@ def main():
     
     for dirpath, _, filenames in os.walk(ROOT_FOLDER):
         for filename in filenames:
-            if filename.lower().endswith((".mp3", ".m4a")):
+            if filename.lower().endswith((".mp3", ".m4a", ".3gp", ".wav")):
                 full_path = os.path.join(dirpath, filename)
                 transcribe_audio(full_path, ROOT_FOLDER)
     
