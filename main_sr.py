@@ -1,5 +1,5 @@
 import os
-import whisper
+import speech_recognition as sr
 from dotenv import load_dotenv
 from pydub import AudioSegment
 import tempfile
@@ -62,15 +62,15 @@ def transcribe_audio(file_path, root_folder):
 
         # Adım 2: Metne çevirme
         log_with_timestamp("   -> Adım 2: Metne çevirme işlemi (Whisper) başlıyor... (Bu adım uzun sürebilir)")
-
-        # from faster_whisper import WhisperModel
-
-        model = whisper.load_model(WHISPER_MODEL, device="cuda")
-        result = model.transcribe(temp_wav_file.name, language="tr")
-        # print(result["text"])
-
-        text = result["text"]
-
+        r = sr.Recognizer()
+        with sr.AudioFile(temp_wav_file.name) as source:
+            audio_data = r.record(source)
+        
+        text = r.recognize_whisper(
+            audio_data,
+            model=WHISPER_MODEL,
+            language="turkish"
+        )
         log_with_timestamp("   -> Adım 2: Metne çevirme tamamlandı.")
 
         # Adım 3: Dosyaya yazma

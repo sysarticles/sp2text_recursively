@@ -58,8 +58,19 @@ Linux (apt ile): sudo apt update && sudo apt install ffmpeg
 Python Kütüphanelerinin Kurulumu: Terminal veya komut istemcisine aşağıdaki komutları yazarak gerekli Python kütüphanelerini kurun:
 
 Bash
+#  main_sr.py 
+pip install SpeechRecognition # main_sr.py da SpeechRecognition var, kullanılmayacak ise gerek yok
 
-pip install pydub SpeechRecognition
+# main_faster-whisper.py
+
+
+pip install faster-whisper
+
+# main.py için:
+
+pip install pydub
+pip install git+https://github.com/openai/whisper.git
+
 
 
 

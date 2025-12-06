@@ -1,5 +1,5 @@
 import os
-import whisper
+from faster_whisper import WhisperModel
 from dotenv import load_dotenv
 from pydub import AudioSegment
 import tempfile
@@ -65,11 +65,13 @@ def transcribe_audio(file_path, root_folder):
 
         # from faster_whisper import WhisperModel
 
-        model = whisper.load_model(WHISPER_MODEL, device="cuda")
-        result = model.transcribe(temp_wav_file.name, language="tr")
-        # print(result["text"])
+        model = WhisperModel(WHISPER_MODEL, device="cuda", compute_type="float16")
 
-        text = result["text"]
+        segments, info = model.transcribe(temp_wav_file.name, language="tr")
+
+        text = "".join([segment.text for segment in segments])
+        #  print(text)
+
 
         log_with_timestamp("   -> Adım 2: Metne çevirme tamamlandı.")
 
