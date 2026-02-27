@@ -3,6 +3,15 @@ import whisper
 from dotenv import load_dotenv
 from pydub import AudioSegment
 import tempfile
+import torch
+
+# Cihazı dinamik olarak seç: M1/M2 Mac için MPS, CUDA destekli GPU veya CPU
+if torch.backends.mps.is_available():
+    DEVICE = "mps"
+elif torch.cuda.is_available():
+    DEVICE = "cuda"
+else:
+    DEVICE = "cpu"
 import datetime
 import time
 
@@ -18,6 +27,7 @@ ERROR_LOG_FILE = os.path.join(ROOT_FOLDER, "hatali_dosyalar.txt") if ROOT_FOLDER
 
 # --- WHISPER MODELİ AYARI ---
 WHISPER_MODEL = os.getenv("WHISPER_MODEL", "base")
+LANGUAGE = os.getenv("LANGUAGE", "en")
 
 
 def log_with_timestamp(message):
@@ -65,11 +75,12 @@ def transcribe_audio(file_path, root_folder):
 
         # from faster_whisper import WhisperModel
 
-        model = whisper.load_model(WHISPER_MODEL, device="cuda")
-        result = model.transcribe(temp_wav_file.name, language="tr")
+        model = whisper.load_model(WHISPER_MODEL, device=DEVICE)
+        result = model.transcribe(temp_wav_file.name, language=LANGUAGE)
         # print(result["text"])
 
         text = result["text"]
+        text = text.replace(".", ".\n")
 
         log_with_timestamp("   -> Adım 2: Metne çevirme tamamlandı.")
 
@@ -125,7 +136,7 @@ def main():
     
     for dirpath, _, filenames in os.walk(ROOT_FOLDER):
         for filename in filenames:
-            if filename.lower().endswith((".mp3", ".m4a")):
+            if filename.lower().endswith((".mp3", ".m4a", ".mp4")):
                 full_path = os.path.join(dirpath, filename)
                 transcribe_audio(full_path, ROOT_FOLDER)
     

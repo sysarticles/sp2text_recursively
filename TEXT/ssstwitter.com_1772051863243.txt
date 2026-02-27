@@ -1,0 +1,191 @@
+Right now, I have AI agents running on a computer in my office, while I'm out of the house, at the beach, at dinner, wherever they're working.
+Coding applications, running market research, and sending me reports automatically.
+Not long ago, I experienced a watershed moment with AI.
+I was right here on the beach, texting my AI employee from my phone, iterating on a project it was coding all day and getting responses in real time.
+All from an autonomous system in my office while I was standing here on the sand.
+That is the moment why I'm making this video.
+My name is Myles Deutscher.
+I'm the founder of AI Edge, and I've been deep in this technology since ChatGPT first launched.
+Last year, I founded an AI tech and media company because I saw where this was heading.
+In October, I flew back to Melbourne to visit friends and family.
+Went to the pub, went to dinners, caught up with people I hadn't seen in months, and I realized something that shook me.
+They're not using AI.
+Well, not really.
+Maybe ChatGPT for a question here or there, maybe a spreadsheet formula, but that's it.
+No workflows, no automations, no experimentation.
+Then I visited my dad.
+He runs an art company.
+Great business, but hands-on.
+Sales, leads, clients, databases, catalogs, print design, email responses.
+But when I asked him about AI, he said he was still figuring out how to prompt ChatGPT.
+None of the systems were automated.
+Not one.
+Then I flew home to Dubai and sat down with my housemates and asked, you guys are using AI, right? But they weren't.
+They didn't even really know where to start.
+They weren't hostile towards it, just unaware.
+Think about this.
+I have a 30 employee AI and media business.
+And if that's happening in my own house, then the gap is way worse than I first thought.
+I have a 30-year-old AI and media business.
+I have a 30-year-old AI and I think people let what they want to believe in get in the way of what's actually happening.
+They don't want to believe that this is the future.
+So they tell themselves it's not, but it is.
+And pretending otherwise doesn't slow it down.
+A year ago, I was using AI the way most people do, as a chatbot.
+I would ask it a question, get an answer, and that's about it.
+Then I started pushing it.
+I got it to do my accounting, chucked my bank statements into a folder.
+And within minutes, everything was sorted, categorized, and reconciled.
+Something that used to take me hours.
+I could build applications.
+Full applications without a developer or a budget.
+Just me describing what I wanted in plain English.
+For example, I do a lot of trading and investing, and I couldn't find an analytics platform that gave me the specific correlation data that I needed.
+So I described my pain point to Claude.
+And a few hours later, I had a full working custom market scanner to backtest correlations for any data point or indicator.
+Exactly what I wanted.
+Without AI, that's probably a $20,000 project.
+And I did it in a few hours with a 20-year-old AI.
+And I was like, I'm going to do this.
+I'm going to do this.
+I'm going to do this.
+And after that, I started building everything.
+Habit tracking apps, custom dashboards, second brain.
+Each one took 30 minutes or less.
+And that's when it finally clicked.
+I can build anything that's in my head.
+Any workflow, any tool, and anyone can.
+Then I went even further.
+I set up autonomous AI agents on a Mac studio.
+A coder, a researcher, a strategist, a content writer, a market analyst, all running on my computer.
+And I can leave the house while they work.
+I can text them from my phone and iterate on the go.
+I can call them.
+I can call them.
+I can send me updates on Telegram, even without me asking.
+12 months ago, I was just a chatbot user.
+Today, I run an AI-powered operation.
+So here's the question that keeps me up at night.
+If that happened in just one year at an exponential pace, what happens in five? With hundreds of billions in capital investment that hasn't even come online yet.
+Data centers only just getting greenlit.
+Energy infrastructure still just being built.
+I see the writing on the wall.
+I need to tell you something I'm not proud of.
+Recently, I let go of five employees.
+And I replaced them with AI agents running on my computer.
+A crypto researcher, replaced with an AI that scans the market around the clock.
+An operations person, replaced by a strategic AI system that handles planning.
+A content writer.
+I trained a model on my own voice and writing style.
+And three developers.
+A website dev, a software dev, and a general coder, replaced with a singular AI model.
+That's not a flex.
+That's the reality that I had to face.
+And if it makes you uncomfortable, hearing it, good.
+Because that discomfort is exactly what I'm trying to give you.
+Before your boss makes the same decision about you.
+Because if I'm doing this as a small business owner with 30 people, imagine what's happening at companies with 5,000 or 50,000.
+Now, I'm still hiring some humans.
+But every person that I hire from now on will leverage my AI systems.
+That's the baseline.
+If you can't work alongside AI, you can't work for me.
+And I'm far from the only person thinking this way.
+I have friends who are accountants.
+I'm worried about them.
+Friends in finance.
+Worried about them.
+Any role where the core work happens on a screen.
+Reading, writing, analyzing, deciding, decoding.
+AI is coming for significant parts of it.
+Not in 10 years, but now.
+AI is really still digital.
+Ultimately, AI can improve the productivity of humans who do things with their hands.
+Like plumbing, literally welding, electrical work, plumbing.
+Anything that's physically moving atoms.
+Anything that's physical, those jobs will exist for a much longer time.
+But anything that is digital, which is like just someone at a computer doing something, AI is going to take over those jobs like lightning.
+My videographer, the guy filming this right now, said to me this morning while I was preparing the script, the world is fucked.
+Now, he's in a creative field that's also under threat by new video models, which will soon be able to replicate full-scale Hollywood movies in just a matter of minutes.
+The quicker that you accept that no one is safe, the quicker that you can get ahead.
+Because the window to be early is still open.
+But admittedly, it's closing.
+So what can you actually do? Well, here's what I'm telling my family and friends.
+Firstly, start using AI seriously.
+Sign up for Claude, which is my favorite model, or even ChatGPT.
+And use the best model available, not the default.
+The free version of these tools are often months behind what paying users have access to.
+If you tried the free version and thought, well, this isn't that impressive, you haven't seen what it can actually do.
+It's mind-blowing the power that these models now have.
+Secondly, write down everything that you do on a daily or weekly basis.
+Then pick one workflow to offer.
+Just start with one workflow at a time.
+Focus on one thing every week and keep stacking workflows.
+Start with the thing that you spend the most time on.
+The repetitive thing that eats your afternoon.
+Just feed it to the AI and see what happens.
+I'm willing to bet that you'll be able to automate.
+If you're an accountant, give it a full client return.
+If you're in sales, give it your CRM data.
+If you're a manager, paste in your quarterly numbers and ask it to find the story.
+Don't assume it can't.
+It probably can.
+Just try it.
+And if it kind of works today, in six months, it'll probably be able to do it.
+Thirdly, spend one hour a day.
+Not just reading about AI, but actually using it.
+Every day, try something new.
+Then try something slightly harder.
+Something you're not even sure you can handle.
+Keep a log on Excel or your AI dashboard of your experimentations over time.
+You'll be mind-blown what you can achieve in a few months' time.
+And if you do this for, let's say, six months, you'll understand what's coming better than 99% of people around you.
+The bar is low because most people are still far too complacent.
+I could get into more specifics now, but this is exactly what I break down on this channel.
+The workflows, the automations, the systems.
+So, subscribe if you want the exact systems that I use to scale and run my business.
+Fourthly, get your finances in order.
+I'm not a financial advisor, but if you believe even partially that the next few years will be disruptive, having savings and flexibility matters much more than it did just a year ago.
+The best part is AI can help you with this, whether it's automated accounting or financial planning.
+And lastly, rethink the old playbook.
+Many of the old tropes you were taught by your parents or you learned at school are sadly no longer true.
+I actually told my younger sister recently to seriously consider whether university is the right move right now.
+Knowledge is free.
+It's in your pocket, available at any time.
+There's no premium on what you know anymore.
+The premium is now on agency and emotional intelligence, on taste, on curation, on knowing how to direct these tools at problems that actually matter.
+It's never been a better time to be an ideas person.
+The winners will be the people with enough self-awareness to leverage what's available.
+While you're doing all this, make sure to prioritize your health.
+That's the one thing that AI can't automate for you.
+And ironically, it might be AI that actually unlocks major longevity breakthroughs.
+So make sure you're around to benefit.
+I've spent a lot of time in this video on the threats that AI represents.
+But let me also tell you the other side.
+Being able to take any idea stuck in my head and actually build it for 20 bucks that used to cost a million dollars in development is absolutely wild.
+I'm more excited than I've ever been.
+I'm building an AI media in the underlying technology.
+And the past few weeks alone have made it crystal clear that this is the biggest opportunity of my life.
+But I'm also scared.
+I'd be lying if I said I wasn't.
+This may be the biggest change that humanity has ever undergone in such a short time span.
+It's moving faster and more aggressively than the industrial revolution.
+Here's what I keep coming back to, though.
+Thinking about how scared you are doesn't change the reality of what's happening.
+You can either bury your head in the sand or embrace it.
+And if you bury your head, you might not like what you find when you finally get out of it.
+But if you do, you're going to be the first person to get back to the world.
+And if you do, you're going to be the first person to get back to the world.
+And if you bury your head, you're going to be the first person to get back to the world.
+And if you look back up again.
+I read an article by Matt Schumer that put this feeling into words better than I could.
+Links in the description below.
+It's worth your time and it inspired this video.
+So dear family, dear friends, dear anybody watching this.
+I don't have all the answers.
+No one does.
+The window to be early is still open, but not for long.
+I'd rather be the person who warned you too early than be the one who said nothing and watch you get blindsided.
+Now go download Claude or ChatGPT and start experimenting.
+I'm serious.
+And if you want help, that's exactly what this channel's for.
+Subscribe and I'll see you in the next video.

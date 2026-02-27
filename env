@@ -1,15 +1,18 @@
 # Ses dosyalarınızın bulunduğu ana klasörün tam yolu
-ROOT_FOLDER="C:\Users\user\Desktop\SesArsivim"
+ROOT_FOLDER="SOURCE"
 
 # Çıktıların kaydedileceği klasörün adı (bu klasör betik yanında oluşturulur)
-OUTPUT_FOLDER="Desifre_Metinleri"
+OUTPUT_FOLDER="TEXT"
 
 # --- WHISPER MODELİ AYARI ---
 # Kullanılacak Whisper modelini seçin. Seçenekler: "tiny", "base", "small", "medium", "large"
 # Öneri: İyi bir başlangıç için "base" veya "small" modellerini kullanabilirsiniz.
 # Daha doğru sonuçlar için "medium" veya "large" kullanabilirsiniz ancak daha yavaş çalışır.
-WHISPER_MODEL = "medium"
+WHISPER_MODEL = "large"
+# Transkripsiyonun yapılacağı dil (örneğin: "en" İngilizce, "tr" Türkçe)
+LANGUAGE = "en" 
+
 
 # Whisper'a doğru kelimeleri seçmesi için yardım edecek anahtar kelimeler.
 # Bu listeyi kendi ihtiyaçlarınıza göre zenginleştirebilirsiniz.
-VOCAB_PROMPT=""
+VOCAB_PROMPT="english, english language, english words, english vocabulary, english phrases, english sentences, english grammar, english pronunciation, english conversation, english communication, english writing, english reading, english listening, english speaking"
